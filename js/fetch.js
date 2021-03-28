@@ -20,8 +20,8 @@ fetch(url)
 
         return recipes.map(function (recipes){
             let list = createNode('list');
-            list.innerHTML = recipes.recipesTitle + " " + recipes.recipesContent + " " + recipes.recipesHowTo;
-            append(ul,list);
+            list.innerHTML = recipes.recipesTitle + " " + recipes.recipesContent;
+            append(ul, list);
         })
     })
 
