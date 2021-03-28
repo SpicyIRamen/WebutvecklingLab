@@ -8,15 +8,3 @@ menu.addEventListener('click', function (){
 });
 
 const url ='https://api.spoonacular.com/recipes/random?apiKey=2fd79dd1eb544ae2b0f9439856023071';
-
-
-fetch(url)
-    .then(res => res.json())
-    .then(data => {
-        console.log('Success:', data);
-
-    }).catch(err => {
-        console.error('Error: ', err);
-})
-
-console.log('helloworld')

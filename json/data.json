@@ -1,0 +1,25 @@
+{
+  "recipes": [
+    {
+      "recipesTitle": "Tantanmen",
+      "recipesContent": "Ingredients: Pork mince, Soup, Noodle and toppings, bean sprouts etc",
+      "recipesHowTo": "Instructions: I don't know, check online.",
+      "sourceMap": true,
+      "ramenID": 1
+    },
+    {
+      "recipesTitle": "Tonkotsu",
+      "recipesContent": "noodles, minced meat, bean sprouts etc",
+      "recipesHowTo": "Instructions: I don't know, check online.",
+      "sourceMap": true,
+      "ramenID": 2
+    },
+    {
+      "recipesTitle": "Sukiya",
+      "recipesContent": "noodles, minced meat, bean sprouts etc",
+      "recipesHowTo": "Instructions: I don't know, check online.",
+      "sourceMap": true,
+      "ramenID": 3
+    }
+  ]
+}
