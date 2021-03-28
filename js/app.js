@@ -6,5 +6,3 @@ menu.addEventListener('click', function (){
     menu.classList.toggle('is-active');
     menuLinks.classList.toggle('active')
 });
-
-const url ='https://api.spoonacular.com/recipes/random?apiKey=2fd79dd1eb544ae2b0f9439856023071';
