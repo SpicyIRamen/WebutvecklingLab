@@ -2,9 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ramen Menu</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar_logo"><img src="img/spicyramenicon.png" alt="" class="ramen_icon">Ramen Recipes</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/index.html" class="navbar__links">Homepage</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Something</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">About Us</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/menu.html" class="navbar__links">Recipes</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<script src="js/app.js"></script>
+<div class="menu">
+    <div class="menu__container">
+        <div class="menu__content">
+            <h1></h1>
+            <p></p>
+            <h2> </h2>
+            <p> </p>
+        </div>
+    </div>
+</div>
+
+<div class="Recipe-list">
+    <div class="Recipe-list-container">
+        <ul class="Recipe-list-items">
+            <li class="Recipe-tantanmen-btn">
+                <a href="/tantanmen" class="Recipe-tantanmen-button">Tantanmen</a>
+                <img src="img/tantanmen-img.png" alt="ramen-preview" class="preview-image-tantanmen">
+            </li>
+            <li class="Recipe-tonkotsu-btn">
+                <a href="/tonkotsu" class="Recipe-tonkotsu-button">Tonkotsu</a>
+            <img src="img/tonkotsu-img.png" alt="ramen-preview" class="preview-image-tantanmen">
+            </li>
+            <li class="Recipe-sukiya-btn">
+            <a href="/sukiya" class="Recipe-sukiya-button">Sukiya</a>
+            <img src="img/sukiya-img.png" alt="ramen-preview" class="preview-image-tantanmen">
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
 
 </body>
 </html>

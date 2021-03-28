@@ -45,7 +45,7 @@
 
     .ramen_icon {
         width: 90px;
-        height: 90px;
+        height: 80px;
     }
 
     .background-image{
@@ -70,6 +70,7 @@
         width: 100%;
         max-width: 1300px;
         padding: 0 50px;
+        min-width: 445px;
     }
 
     .main__content h1 {
@@ -98,7 +99,63 @@
         width: 80%;
     }
 
-@media screen and (max-width: 768px){
+/* Footer */
+.footer_container {
+    background-color: #141414;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    max-width: 1920px;
+}
+
+
+
+.footer_links{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_link_wrapper{
+    display: flex;
+}
+
+.footer_link-items{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.footer_link-items h2 {
+    margin-bottom: 16px;
+    color: white;
+}
+
+.footer_link-items > h2{
+    color: white;
+}
+
+@media screen and (max-width: 480px){
+    .footer_link-items{
+        margin: 16px;
+        padding: 10px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 1000px){
     .main__container {
         display: grid;
         grid-template-columns: auto;
@@ -119,6 +176,72 @@
     .main__content p{
         margin-top: 1rem;
         font-size: 1.5rem;
+    }
+
+    /* Footer */
+    .footer_container {
+        background-color: #141414;
+        padding: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        height: 80px;
+        width: 100%;
+        max-width: 1000px;
+    }
+
+
+
+    .footer_links{
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_link_wrapper{
+        display: flex;
+    }
+
+    .footer_link-items{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 16px;
+        text-align: left;
+        width: 160px;
+        box-sizing: border-box;
+    }
+
+    .footer_link-items h2 {
+        margin-bottom: 16px;
+        color: white;
+    }
+
+    .footer_link-items > h2{
+        color: white;
+    }
+
+    .footer_link-items a{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer_link-items a:hover {
+        color: white;
+        transition: 0.3s ease-out;
+    }
+
+    @media screen and (max-width: 480px){
+        .footer_link-items{
+            margin: 16px;
+            padding: 10px;
+            width: 160px;
+        }
     }
 }
 
@@ -272,4 +395,211 @@
         tranform: translateY(-8px) rotate(-45deg);
     }
 
+}
+
+/*menu */
+
+.Recipe-list-items {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+}
+
+.preview-image-tantanmen{
+        display: flex;
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.Recipe-tantanmen-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    height: 70%;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #f77062;
+    color: #fff;
+}
+.Recipe-tantanmen-button:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+
+.Recipe-tantanmen-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+/*Tonkotsu*/
+.Recipe-tonkotsu-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    height: 70%;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #f77062;
+    color: #fff;
+}
+.Recipe-tonkotsu-button:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+
+.Recipe-tonkotsu-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+/*Sukiya*/
+.Recipe-sukiya-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    height: 70%;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #f77062;
+    color: #fff;
+}
+.Recipe-sukiya-button:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+}
+
+.Recipe-sukiya-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.main_rating h2 {
+    position: fixed;
+    top: 65%;
+    left: 39%;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.rating{
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating input{
+    display: none;
+}
+
+.rating label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    background: #141414;
+}
+.rating label:before{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    color: #f77062;
+}
+.rating label:after{
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: #1f9cff;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after{
+    opacity: 1;
+}
+
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f77062;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f77062;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }

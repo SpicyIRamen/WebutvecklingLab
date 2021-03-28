@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ramen Recipes Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="/" id="navbar_logo"><img src="img/spicyramenicon.png" alt="" class="ramen_icon">Ramen Recipes</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/menu.html" class="navbar__links">Menu</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">Something</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">About Us</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/menu.html" class="button">Recipes</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<script src="js/app.js"></script>
+
+<div class="menu">
+    <div class="menu__container">
+        <div class="menu__content">
+            <h1></h1>
+            <p></p>
+            <h2> </h2>
+            <p> </p>
+        </div>
+    </div>
+</div>
+
+<div class="footer_container">
+    <div class="footer_links">
+        <div class="footer_link_wrapper">
+            <div class="footer_link-items">
+                <h2>A Taste of Japan</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main_rating">
+<h2>Rate This Recipe</h2>
+    <div class="rating">
+        <input type="radio" name="star" id="star1"><label for="star1"></label>
+        <input type="radio" name="star" id="star2"><label for="star2"></label>
+        <input type="radio" name="star" id="star3"><label for="star3"></label>
+        <input type="radio" name="star" id="star4"><label for="star4"></label>
+        <input type="radio" name="star" id="star5"><label for="star5"></label>
+    </div>
+</div>
+
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="Sweden">Sweden</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">E-mail</label>
+            </div>
+            <div class="col-75">
+                <input type="email" id="email" name="email" placeholder="Your email..">
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Submit" id="submit">
+        </div>
+    </form>
+</div>
+<script src="js/validator.js"></script>
+
+</body>
+</html>
